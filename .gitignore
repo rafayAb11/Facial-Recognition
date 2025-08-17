@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore datasets and trained models (keep structure via .gitkeep)
+dataset/*
+!dataset/.gitkeep
+models/*
+!models/.gitkeep
+
+# Ignore IDE configs
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
